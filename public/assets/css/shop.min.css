@@ -1,0 +1,342 @@
+
+.item-menu{
+    margin: 4px;
+}
+
+
+
+.card-post_img {
+    margin: 14px 0;
+    border: 1px solid rgb(193, 193, 193);
+    border-radius: 4px;
+
+}
+
+.detail-card-img {
+    width: 100%;
+    height: 400px;
+    border-radius: 20px;
+    padding: 16px;
+}
+
+
+.detail-name {
+    color: black;
+    font-size: 2.4rem;
+}
+
+.detail-price {
+    font-size: 1.6rem;
+    color: red;
+    padding: 14px 0;
+}
+
+
+.detail-list {
+    display: block;
+}
+
+.btn-detail {
+    background-color: #ee4d2d;
+    margin: 10px 4px;
+    padding: 10px;
+    color: white;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.btn-detail_cart {
+    background-color: #ffeeeb;
+    margin: 100px 4px;
+    padding: 10px;
+    color: #ee4d2d;
+    font-size: 1.4rem;
+    border: 1px solid #ee4d2d;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.btn-detail_cart:hover {
+    background-color: #fff5f4;
+    color: #ee4d2d;
+
+}
+
+.btn_cart-icon {
+    padding: 0 4px;
+    color: rgb(255, 141, 75);
+}
+
+.btn-detail:hover {
+    background-color: #ed593b;
+    color: rgb(235, 232, 232);
+
+}
+
+.detail-sale {
+    background-color: white;
+    border: 1px solid rgb(195, 193, 193);
+    padding: 14px;
+    margin: 10px 0;
+}
+
+.detail-sale-title {
+    padding: 4px;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.detail-care {
+    color: rgb(13, 0, 255);
+    padding-bottom: 8px;
+    font-size: 1.4rem;
+    font-weight: 600;
+
+}
+
+.detail-call {
+    color: rgb(255, 115, 0);
+    font-size: 1.4rem;
+    font-weight: 600;
+
+}
+
+.media-image {
+    border-radius: 50%;
+}
+
+.media-comment {
+    font-size: 1.6rem;
+}
+
+.btn-edit {
+    float: left;
+    background-color: rgb(97, 155, 255);
+    color: white;
+    padding: 3px 18px;
+    font-size: 1.5rem;
+    margin: 0 4px;
+    border-radius: 4px;
+}
+
+.btn-edit:hover {
+    color: white;
+}
+
+.btn-delete {
+    background-color: rgb(241, 71, 71);
+    color: white;
+    padding: 3px 18px;
+    font-size: 1.5rem;
+    margin: 0 4px;
+    border-radius: 4px;
+    border: none;
+}
+
+.btn-delete:hover {
+    color: white;
+}
+
+.card-post {
+    border: 1px solid rgb(225, 225, 225);
+    margin-bottom: 18px;
+    padding: 2px 0;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+.card-body {
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    padding: 0 8px;
+}
+
+.card-body a {
+    text-decoration: none;
+}
+
+.card-title {
+    color: rgb(255, 0, 0);
+    font-size: 1.8rem;
+}
+
+.card-text {
+    font-size: 1.4rem;
+}
+
+.btn-view {
+    padding: 4px 8px;
+    background-color: #f55f41;
+    color: white;
+    display: block;
+    margin-top: 6px;
+    border-radius: 4px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.btn-view:hover {
+    background-color: #f6674a;
+    color: rgb(229, 226, 226);
+}
+
+
+/* form login */
+
+.modal {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.09);
+}
+
+.auth_body {
+    position: relative;
+    margin: auto;
+}
+
+.auth_form-form {
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+.auth_form-container {
+    padding: 0 32px;
+}
+
+.auth-login {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.auth_heading {
+    font-size: 2rem;
+    font-weight: 900;
+    color: rgb(0, 132, 255);
+}
+
+.font_x {
+    color: black;
+    font-size: 20px;
+}
+
+.font_x:hover {
+    color: black;
+
+}
+
+
+.auth_form-input {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    padding: 0 12px;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    border: 1px solid #d3d3d3;
+    outline: none;
+}
+
+.auth_form-input:focus {
+    border-color: rgb(0, 217, 255);
+}
+
+.auth_form-aside {
+    margin-top: 22px;
+}
+
+.auth_form-text {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    text-align: center;
+}
+
+.auth_form-link {
+    color: rgb(229, 38, 38);
+    text-decoration: none;
+}
+
+.auth_form-control {
+    margin-top: 80px;
+    padding-bottom: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    min-width: 100px;
+    height: 38px;
+    border: none;
+    margin: 0 12px;
+    font-size: 1.2rem;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-login {
+    background-color: rgb(255, 113, 36);
+    color: white;
+}
+
+.btn-login:hover {
+    background-color: rgb(255, 125, 55);
+    color: rgb(230, 227, 227);
+}
+
+.btn-register {
+    background-color: rgb(79, 179, 255);
+    color: white;
+}
+
+.btn-register:hover {
+    background-color: rgb(105, 190, 255);
+    color: rgb(230, 227, 227);
+}
+
+
+
+.post {
+    transition: 0.3s;
+    border: 1px solid rgb(227, 227, 227);
+}
+
+.post:hover {
+    transform: scale(0.99);
+    box-shadow: 0 4px 4px 4px rgb(209, 200, 200);
+    border: 1px solid rgb(255, 0, 106);
+}
+
+.post-img {
+    transition: 4s;
+}
+
+.post-img:hover {
+    transform: scale(0.96);
+    
+}
+
+
+small{
+    color: red;
+}
